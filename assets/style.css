@@ -1,0 +1,164 @@
+/*------------Navigation Bar------------*/
+nav {
+    background-color: rgb(18, 18, 180);
+  }
+  /*----------jumbotron----------------*/
+  .jumbotron.catalog {
+    height: 250px;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+  }
+ 
+  .intro {
+    border: none;
+    border-radius: 0;
+  }
+  
+  .intro .card-footer:last-child {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+  
+  .intro .card-footer {
+    background-color: rgb(18, 18, 180);
+    color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+  }
+  
+  .intro .card-footer p {
+    display: inline-block;
+    font-weight: 600;
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 2px;;
+    text-transform: uppercase;
+  }
+  
+  .intro .card-footer p:hover {
+    cursor: pointer;
+  }
+  
+  .catalog h1 {
+    color: rgb(18, 18, 180);
+  }
+  /*-----------Test Container------------*/
+  .tests h4 {
+    color: rgb(18, 18, 180);
+    margin-bottom: 1.5rem;
+  }
+  
+  .test {
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(18, 18, 180);
+    color: #97e8a3;
+    margin-top: 0.75rem;
+    z-index: 10;
+  }
+  
+  .test .card-body {
+    padding: 0.5rem;
+  }
+  
+  .lang_def {
+    margin: 0;
+    padding-top: 0.5rem;
+  }
+
+  .test .card-body:hover {
+    box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, .25);
+    cursor: pointer;
+  }
+  /*---------Background----------*/
+  .background {
+    display: block;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    left: 50px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: -1;
+  }
+
+  .scores, .time {
+    color: #fff;
+    display: none;
+  }
+  /*------Quiz Card------------*/
+  .quiz_card {
+    border: none;
+    border-radius: 0;
+    background-color: rgb(18, 18, 180);
+  }
+  
+  .quiz_card ul li {
+    background-color: rgb(18, 18, 180);
+    border: 1px solid #97e8a3;
+  }
+  
+  .quiz_card ul li:hover {
+    cursor: pointer;
+  }
+  
+  .quiz_card .card-header+.list-group .list-group-item:first-child {
+    border-top: 1px solid #97e8a3;
+  }
+/*------------Score Card------------*/
+  .score.card {
+    border-color: #fff;
+    background-color: rgb(18, 18, 180);
+  }
+  
+  .score.card .card-header {
+    border-bottom-color: #fff;
+  }
+  
+  .result {
+    color: #97e8a3;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .score.card ul {
+    width: 100%;
+  }
+  
+  .score.card ul li {
+    border: 0;
+    color: #fff;
+    background-color: rgb(18, 18, 180);
+    width: 33%;
+    text-align: right;
+  }
+/*---------Score Table--------------*/
+  .score_table .card .card-header+.list-group .list-group-item:first-child {
+    border-top: 1px solid #97e8a3;
+  }
+  
+  .score_table .card>.list-group:last-child .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      border-bottom: 1px solid #97e8a3;
+  }
+  
+  .score_table .card {
+    border: 0;
+    background-color: rgb(18, 18, 180);
+  }
+  
+  .score_table .card h3 {
+    color: #fff;
+  }
+  
+  .score_table .card ul li {
+    background-color: rgb(18, 18, 180);
+    border: 1px solid #97e8a3;
+    color: #fff;
+  }
+  
+  .player_score {
+    float: right;
+  }
